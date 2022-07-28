@@ -59,5 +59,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "div div div";
+    "box1 box2 box3"
+    ". . ."
+    ". . .";
 }
