@@ -15,8 +15,16 @@ header div {
   grid-template-rows: 1fr;
 }
 
+body {
+  margin-top: 1.5rem;
+}
+
 h1 {
   font-style: italic;
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin-left: .5rem;
+  margin-bottom: 1.5rem;
 }
 
 header img {
@@ -24,10 +32,12 @@ header img {
 }
 
 main img {
-  width: 100%;
+  width: 137%;
+  margin-bottom: .8rem;
 }
 
 h2 {
+  font-weight: lighter;
   font-style: italic;
   color: #fff;
   grid-column: 1 / -1;
@@ -50,6 +60,63 @@ p {
 .pano {
   grid-column: 1 / -1;
   grid-row: 1;
+}
+
+.img1 {
+  grid-area: box1;
+}
+
+.img2 {
+  grid-area: box2;
+}
+
+.img {
+  grid-area: box3;
+}
+
+.a1 {
+  margin-left: -3rem;
+}
+
+.a2 {
+  margin-left: -2.5rem;
+}
+
+.a3 {
+  margin-left: -2rem;
+}
+
+figcaption {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -2rem;
+}
+
+.dl1 {
+  margin-left: .5rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+.dl2 {
+  margin-left: .5rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+.dl3 {
+  margin-left: 1rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+dt {
+  font-style: italic;
+}
+
+dd {
+  margin-left: 1rem;
+  font-weight: normal;
 }
 
 main {
